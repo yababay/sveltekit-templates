@@ -9,3 +9,6 @@ commit:
 push:
 	git push origin articles
 
+main:
+	git checkout main
+
