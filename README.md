@@ -17,7 +17,7 @@
 * `favicon.ico` - для случаев, когда браузер запрашивает этот ресурс автоматически.
 
 Директория `lib` пуста. Весь функционал вынесен в библиотеку 
-[@yababay67/svelte-components](https://github.com/yababay/svelte-components)
+[@yababay67/sveltekit-components](https://github.com/yababay/sveltekit-components)
 Для каждого шаблона создана отдельная ветка:
 
 * `dummy` - простейший шаблон вида `header` → `main` → `footer`;
