@@ -4,7 +4,7 @@ add:
 	git add .
 
 commit:
-	git commit -am update
+	git commit -am ok
 
 push:
 	git push origin articles
