@@ -6,15 +6,15 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			handleHttpError: 'warn'
+		},
         // Uncomment next lines for gh-pages deploy.
         /*
 		paths: {
             base: process.env.NODE_ENV === 'production' ? '/<your-project-on-github>' : '',
 		},
-		prerender: {
-			handleHttpError: 'warn'
-		}
         */
 	}
 };
