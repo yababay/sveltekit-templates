@@ -24,7 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@yababay67/sveltekit-components": "^1.0.1",
+		"@yababay67/sveltekit-components": "^1.0.2",
 		"showdown": "^2.1.0"
 	}
 }
