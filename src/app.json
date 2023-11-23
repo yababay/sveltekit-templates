@@ -7,6 +7,7 @@
     "license": "CC_BY-NC_4.0",
     "url": "http://yababay.me",
     "brand": "Шаблон сайта",
+    "bootstrap": "remote",
     "menu": [
         { "title": "Home", "href": "https://yababay.me"},
         { 
