@@ -13,4 +13,5 @@ git checkout main -- src/app.scss
 git checkout main -- src/app.json
 git checkout main -- static/background.png
 git checkout main -- static/fonts
+git checkout main -- package.json
 
