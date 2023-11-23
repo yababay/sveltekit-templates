@@ -1,9 +1,11 @@
 #!/bin/bash
 
-if [ -z "`git branch | grep settings`" ]; then
-    git switch --orphan settings
+BRANCH=backup
+
+if [ -z "`git branch | grep $BRANCH`" ]; then
+    git switch --orphan $BRANCH
 else
-    git checkout settings
+    git checkout $BRANCH
 fi
 
 git checkout main -- .gitignore
@@ -14,4 +16,5 @@ git checkout main -- src/app.json
 git checkout main -- static/background.png
 git checkout main -- static/fonts
 git checkout main -- package.json
+git checkout main
 
