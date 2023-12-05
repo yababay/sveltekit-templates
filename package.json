@@ -1,29 +1,45 @@
 {
-	"name": "sveltekit-templates",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"test": "vitest"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-node": "^1.3.1",
-		"@sveltejs/kit": "^1.27.4",
-		"@types/showdown": "^2.0.4",
-		"sass": "^1.69.5",
-		"svelte": "^4.0.5",
-		"svelte-check": "^3.6.0",
-		"tslib": "^2.4.1",
-		"typescript": "^5.0.0",
-		"vite": "^4.4.2",
-		"vitest": "^0.34.0"
-	},
-	"type": "module",
-	"dependencies": {
-		"@yababay67/sveltekit-components": "^1.0.2"
-	}
+  "name": "sveltekit-templates",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^1.3.1",
+    "@sveltejs/kit": "^1.27.4",
+    "@types/showdown": "^2.0.4",
+    "sass": "^1.69.5",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.6.0",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2",
+    "vitest": "^0.34.0"
+  },
+  "type": "module",
+  "description": "Здесь представлены веб-шаблоны на основе `sveltekit` для моих персональных проектов.  Возможно, пригодятся кому-нибудь еще.",
+  "main": "svelte.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yababay/sveltekit-templates.git"
+  },
+  "keywords": [
+    "web",
+    "svelte",
+    "template",
+    "ssr",
+    "csr"
+  ],
+  "author": "Михаил Беляков",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yababay/sveltekit-templates/issues"
+  },
+  "homepage": "https://github.com/yababay/sveltekit-templates#readme"
 }

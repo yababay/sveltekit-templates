@@ -1,7 +1,8 @@
-import { getTableOfContent } from "@yababay67/sveltekit-components/markdown"
-import { name as repo } from "../../package.json"
+import README from '../../README.md?raw'
+import { fromString } from "@yababay67/sveltekit-components/markdown"
+//import { name as repo } from "../../package.json"
 
-export async function load({ fetch }){
-    const [  html ] = await getTableOfContent(fetch, repo)
+export function load(){
+    const [  html ] = fromString(README)
     return { html }
 }
