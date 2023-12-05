@@ -1,7 +1,7 @@
+/.db
+/.media
 /.svelte-kit
-/.articles
 /build
-/design
 node_modules
 .env
 .env.*
