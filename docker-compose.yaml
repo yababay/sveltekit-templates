@@ -1,0 +1,18 @@
+version: "3"
+services:
+  verses-1917:
+    container_name: verses-1917
+    image: yababay/verses-1917
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 127.0.0.1:3008:3000
+    networks:
+      - yababay
+    environment:
+      - ORIGIN=http://localhost:3008
+    depends_on:
+      - redis
+      - mongo
