@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import showdown from 'showdown'
+    import README from '../../README.md?raw'
+    const converter = new showdown.Converter()
+    const html = converter.makeHtml(README)
+</script>
+
+{@html html}
